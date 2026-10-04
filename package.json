@@ -1,0 +1,16 @@
+{
+  "name": "serverest-tests",
+  "version": "1.0.0",
+  "description": "Suite de testes automatizados (Web + API) para o ServeRest, feita para o case tecnico da Fidela",
+  "scripts": {
+    "test": "playwright test",
+    "test:web": "playwright test tests/web",
+    "test:api": "playwright test tests/api",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
